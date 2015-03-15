@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-
+ruby ENV['CUSTOM_RUBY_VERSION'] || '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -32,7 +32,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'bootstrap-sass', '~> 3.2.0'
+gem 'bootstrap-sass', '3.2.0.2'
 gem 'autoprefixer-rails'
 
 group :development, :test do
